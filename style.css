@@ -37,6 +37,17 @@ header {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.profile-icon {
+    font-size: 1.8rem; /* Ukuran ikon */
+    color: #555555; /* Warna ikon */
+    padding: 1rem 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.profile-icon:hover {
+    color: #E5E1DA; /* Warna saat hover */
+}
+
 /* Styling logo */
 .logo {
     display: flex;

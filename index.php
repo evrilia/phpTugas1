@@ -11,6 +11,7 @@ function displayHeader() {
             <a href="#How to Order">How to Order</a>
             <a href="#Category">Category</a>
             <a href="#Login">Login</a>
+            <a href="#Profile" class="profile-icon">&#128100;</a>
         </nav>
     </header>';
 }
