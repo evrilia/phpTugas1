@@ -76,14 +76,26 @@ function displayAdvantages() {
 }
 
 function displayTestimonials() {
+    $testimonials = [
+        ["name" => "Fitia Anjani", "review" => "Konsep penyewaan ini sangat membantu! Saya bisa mencoba berbagai perlengkapan bayi tanpa harus membeli.", "rating" => 5],
+        ["name" => "Azizah", "review" => "Car seat yang saya sewa bersih dan terawat dengan baik. Harga juga lebih hemat dibanding beli baru.", "rating" => 4],
+        ["name" => "Diah F", "review" => "Proses pemesanan mudah, dan pengirimannya tepat waktu.", "rating" => 5],
+        ["name" => "Etyalab", "review" => "Baby Island sangat membantu! Saya menyewa stroller untuk liburan, dan kualitasnya sangat bagus.", "rating" => 5]
+    ];
+
     echo '<section class="testimonials">
         <h2>What People Say About Baby Island</h2>
-        <div class="testi">
-            <p>"Konsep penyewaan ini sangat membantu!" ⭐⭐⭐⭐⭐</p>
-            <p>"Car seat yang saya sewa bersih dan terawat." ⭐⭐⭐⭐⭐</p>
-            <p>"Proses pemesanan mudah dan cepat!" ⭐⭐⭐⭐⭐</p>
-        </div>
-    </section>';
+        <div class="testi-list">';
+        
+    foreach ($testimonials as $testimonial) {
+        echo '<div class="testi-item">
+                <p>"' . $testimonial['review'] . '"</p>
+                <h4>- ' . $testimonial['name'] . '</h4>
+                <p>' . str_repeat("⭐", $testimonial['rating']) . '</p>
+              </div>';
+    }
+
+    echo '</div></section>';
 }
 
 function displayFooter() {

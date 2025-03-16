@@ -2,6 +2,10 @@
 
 :root {
     --green: #a3bbc8;
+    --text-color: #555;
+    --bg-color: #89A8B2;
+    --card-bg: #E5E1DA;
+    --hover-color: #7d2ae8;
 }
 
 * {
