@@ -20,10 +20,7 @@ function displayHome() {
         <div class="content">
             <h2>Baby Island</h2>
             <h4>Solusi Praktis untuk Kebutuhan Si Kecil!</h4>
-            <p>Kenapa beli kalau bisa sewa? Stroller, car seat, box bayi, 
-                hingga mainan edukatif, semua ada di sini! Hemat, praktis, 
-                dan ramah lingkungan. Yuk, sewa sekarang dan buat momen bersama 
-                si kecil lebih nyaman! </p>
+            <p>Kenapa beli kalau bisa sewa? Stroller, car seat, box bayi, hingga mainan edukatif, semua ada di sini! Hemat, praktis, dan ramah lingkungan. Yuk, sewa sekarang dan buat momen bersama si kecil lebih nyaman!</p>
         </div>
     </section>';
 }
@@ -66,6 +63,34 @@ function displayPopups() {
         </div>';
     }
 }
+
+function displayAdvantages() {
+    echo '<section class="advantages">
+        <h2>Why Choose Baby Island?</h2>
+        <ul>
+            <li>Bersih & Steril - Semua perlengkapan dicuci dan disterilkan.</li>
+            <li>Harga Terjangkau - Lebih hemat dibandingkan beli baru.</li>
+            <li>Customer Service 24/7 - Siap membantu kapanpun dibutuhkan.</li>
+        </ul>
+    </section>';
+}
+
+function displayTestimonials() {
+    echo '<section class="testimonials">
+        <h2>What People Say About Baby Island</h2>
+        <div class="testi">
+            <p>"Konsep penyewaan ini sangat membantu!" ⭐⭐⭐⭐⭐</p>
+            <p>"Car seat yang saya sewa bersih dan terawat." ⭐⭐⭐⭐⭐</p>
+            <p>"Proses pemesanan mudah dan cepat!" ⭐⭐⭐⭐⭐</p>
+        </div>
+    </section>';
+}
+
+function displayFooter() {
+    echo '<footer>
+        <p>2024 Baby Island. All Rights Reserved</p>
+    </footer>';
+}
 ?>
 
 <!DOCTYPE html>
@@ -86,7 +111,10 @@ function displayPopups() {
             displayHome();
             displayCategory();
             displayPopups();
+            displayAdvantages();
+            displayTestimonials();
         ?>
     </div>
+    <?php displayFooter(); ?>
 </body>
 </html>
