@@ -72,6 +72,7 @@ function displayAdvantages() {
             <li>Bersih & Steril - Semua perlengkapan dicuci dan disterilkan.</li>
             <li>Harga Terjangkau - Lebih hemat dibandingkan beli baru.</li>
             <li>Customer Service 24/7 - Siap membantu kapanpun dibutuhkan.</li>
+            <li>Customer Service 24/7 - Siap membantu kapanpun dibutuhkan.</li>
         </ul>
     </section>';
 }
